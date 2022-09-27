@@ -6,6 +6,7 @@ pygame.display.set_caption("TicTacToe")
 
 def draw(win):
     win.fill((255,255,255))
+    pygame.display.update()
 
 def main():
     run = True
@@ -15,6 +16,6 @@ def main():
                 run = False
                 pygame.quit()
 
-    draw(win)
+        draw(win)
 
 main()
