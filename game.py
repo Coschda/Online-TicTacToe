@@ -9,7 +9,7 @@ class Game:
 
     def play(self, move, pos):
         if self.grid[pos[0]][pos[1]] == 0:
-            self.grid[pos[0]][pos[1]] == move
+            self.grid[pos[0]][pos[1]] = move
             self.turn += 1
 
     def check_win(self):
